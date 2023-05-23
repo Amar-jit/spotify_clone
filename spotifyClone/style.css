@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+
+body{
+    background-color: rgb(163, 230, 137);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    font-family: 'Merriweather', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 65px;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0 10px;
+    /* width: 50px; */
+}
+
+.brand img{
+    width: 85px;
+    padding: 0px;
+} 
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    width: 70%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    background-image: url('zoro.png');
+    background-size: 100%;
+    
+}
+
+h1{
+    color: darkgreen;
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+    color: #fff;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 5px;
+}
+
+.icons i{
+    padding: 5px;
+    cursor: pointer;
+}
+
+#progBar{
+    width: 75vw;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+/* .songItem{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: #000;
+    width: 20%;
+    margin: 12px 0px;
+    padding-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 35px;
+}
+
+.songItem img{
+    width: 45px;
+    margin: 0px 20px;
+    border-radius: 35px;
+} */
+
+.songItemContainer{
+    margin: 30px 0px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 30%;
+    border-radius: 30px;
+    margin: 10px 0px;
+    padding-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.songItem img{
+    width: 67px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.songlistparty{
+    margin: 10px;
+    padding: 10px;
+}
+
+.timestamp{
+    padding: 0px 5px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 12vw;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
